@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>변수 -3</title>
+    <style>
+      span {
+        color: red;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      //  banana 변수 선언, 금액 할당
+      let banana = 3400;
+      let bananaCount = 5;
+      // apple 변수 선언, 금액 할당
+      let apple = 7000;
+      let appleCount = 10;
+      // mango 변수 선언, 금액 할당
+      let mango = 4000;
+      let mangoCount = 5;
+      // total 변수 선언, banana apple mango 다 더한 식을 할당
+      let total =
+        (banana * bananaCount) + (apple * appleCount) + (mango * mangoCount);
+      // 화면에 바나나 사과 망고를 다 더한 금액은 n원 입니다.
+      document.write(
+        `<p>바나나 사과 망고를 다 더한 금액은 <span>${total}원</span> 입니다.</p>`,
+      );
+    </script>
+  </body>
+</html>
